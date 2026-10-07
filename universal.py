@@ -61,9 +61,7 @@ FINAL_EXCLUDE_COUNTRIES = set(RAW_EXCLUDE_COUNTRIES)
 FINAL_INCLUDE_COUNTRIES = [c for c in RAW_INCLUDE_COUNTRIES if c not in FINAL_EXCLUDE_COUNTRIES]
 
 DEFAULT_REFERRERS = [
-    "none",
     "https://t.co/",
-    "none",
     "https://l.facebook.com/",
     "https://l.instagram.com/",
     "https://www.youtube.com/",
